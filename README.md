@@ -1,4 +1,4 @@
-# jQuery-Concat
+# jQuery-Concat ![Build Status](https://travis-ci.org/minitech/jquery-concat.png)
 ## String concatenation made easy.
 
 jQuery-Concat is an elegant way to concatenate strings in jQuery. With over 5 unit tests, string concatenation has never been more easy or reliable*.
