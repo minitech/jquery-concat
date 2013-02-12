@@ -1,0 +1,10 @@
+{
+	"name": "jquery-concat",
+	"description": "String concatenation made easy.",
+	"keywords": ["jquery", "string", "concatenation"],
+	"version": "1.0.0",
+	"main": "concat.js",
+	"dependencies": {
+		"jquery": "*"
+	}
+}
