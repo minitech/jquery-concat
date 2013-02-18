@@ -12,3 +12,4 @@ assert.strictEqual($.concat(0x666, ' is when the Treaty of Hamburg was signed.')
 assert.strictEqual($.concat('Die', ' is the singular form of dice!'), 'Die is the singular form of dice!');
 assert.strictEqual($.concat("It ", "works with double-", "quotes, too!"), "It works with double-quotes, too!");
 assert.strictEqual($.concat("Nu\0ll characters", "\0", " should be\0 ignored."), "Null characters should be ignored.");
+assert.strictEqual($.concat(undefined, " and ", null, " should also concatenate properly."), "undefined and null should also concatenate properly.");

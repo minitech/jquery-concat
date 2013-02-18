@@ -2,10 +2,11 @@
 	'use strict';
 
 	function removeNulls(strings) {
-	    for (var i = 0; i < strings.length; i++) {
-	        strings[i] = strings[i].toString().replace(/\0/g, "");
-	    }
-	    return strings;
+		for(var i = 0; i < strings.length; i++) {
+			strings[i] = String(strings[i]).replace(/\0/g, '');
+		}
+
+		return strings;
 	}
 
 	function concat() {
